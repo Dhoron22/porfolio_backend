@@ -11,6 +11,7 @@ use Database\Seeders\EducationSeeder;
 use Database\Seeders\SkillSeeder;
 use Database\Seeders\LanguageSeeder;
 
+
 class DatabaseSeeder extends Seeder
 {
     use WithoutModelEvents;
