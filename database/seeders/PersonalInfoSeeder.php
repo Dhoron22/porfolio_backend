@@ -21,9 +21,9 @@ class PersonalInfoSeeder extends Seeder
             'phone' => '3731551665',
             'email' => 'perezlautaro63@gmail.com',
             'github_url' => 'https://github.com/Dhoron22',
-            'linkedin_url' => null,
+            'linkedin_url' => 'https://www.linkedin.com/in/lautaro-p%C3%A9rez-aa8981201/',
             'age' => 26,
-            'profile_image' => null,
+            'profile_image' => 'images/profile/mi-foto.png',
         ]);
     }
 }
