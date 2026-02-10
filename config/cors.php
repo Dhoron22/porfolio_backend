@@ -21,6 +21,7 @@ return [
 
     'allowed_origins' => [
         'http://localhost:4200',
+        'porfolio-frontend-eight.vercel.app',
         'https://*.vercel.app',
     ],
 

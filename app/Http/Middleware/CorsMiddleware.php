@@ -16,6 +16,7 @@ class CorsMiddleware
         // Lista de orígenes permitidos
         $allowedOrigins = [
             'http://localhost:4200',
+            'porfolio-frontend-eight.vercel.app'
         ];
 
         // Permitir cualquier subdominio de vercel.app
