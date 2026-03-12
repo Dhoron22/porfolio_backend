@@ -17,7 +17,7 @@ class EducationSeeder extends Seeder
             'institution' => 'Universidad Nacional del Nordeste (UNNE)',
             'degree' => 'Diplomatura Universitaria en Desarrollo Web',
             'field_of_study' => 'Desarrollo Web',
-            'description' => 'Diplomatura universitaria enfocada en el desarrollo web fullstack, cubriendo tecnologías como Laravel, Angular, MySQL y desarrollo de APIs REST. Certificado en trámite.',
+            'description' => 'Diplomatura universitaria enfocada en el desarrollo web fullstack, cubriendo tecnologías como Laravel, Angular, MySQL y desarrollo de APIs REST. Certificado',
             'start_date' => '2024-08-01',
             'end_date' => '2025-07-01',
             'current' => false,
@@ -25,21 +25,6 @@ class EducationSeeder extends Seeder
             'certificate_url' => null,
             'location' => 'Corrientes, Argentina',
             'order' => 1,
-        ]);
-
-        // Educación 2: Machine Learning (Google) - En progreso
-        Education::create([
-            'institution' => 'Google',
-            'degree' => 'Curso Machine Learning',
-            'field_of_study' => 'Inteligencia Artificial',
-            'description' => 'Formación activa en algoritmos de ML, análisis de datos y modelos predictivos.',
-            'start_date' => '2026-01-01',
-            'end_date' => null,
-            'current' => true,
-            'status' => 'in_progress',
-            'certificate_url' => null,
-            'location' => null,
-            'order' => 2,
         ]);
 
         // Educación 3: Formación de Preceptores
@@ -54,7 +39,7 @@ class EducationSeeder extends Seeder
             'status' => 'completed',
             'certificate_url' => null,
             'location' => 'Chaco, Argentina',
-            'order' => 3,
+            'order' => 2,
         ]);
 
         // Educación 4: Operador de PC
@@ -69,7 +54,7 @@ class EducationSeeder extends Seeder
             'status' => 'completed',
             'certificate_url' => null,
             'location' => 'Corrientes, Argentina',
-            'order' => 4,
+            'order' => 3,
         ]);
 
         // Educación 5: Secundario
@@ -84,7 +69,7 @@ class EducationSeeder extends Seeder
             'status' => 'completed',
             'certificate_url' => null,
             'location' => 'Corrientes, Argentina',
-            'order' => 5,
+            'order' => 4,
         ]);
     }
 }

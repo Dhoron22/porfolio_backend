@@ -93,48 +93,7 @@ class SkillSeeder extends Seeder
             'featured' => false,
             'order' => 8,
         ]);
-
-        // ===== PYTHON E IA =====
-        Skill::create([
-            'name' => 'Python 3.12',
-            'category' => 'technical',
-            'subcategory' => 'backend',
-            'proficiency' => 65,
-            'description' => 'Análisis de datos, scripts, automatización',
-            'featured' => true,
-            'order' => 9,
-        ]);
-
-        Skill::create([
-            'name' => 'Hugging Face Transformers',
-            'category' => 'technical',
-            'subcategory' => 'ai',
-            'proficiency' => 60,
-            'description' => 'Modelos BERT, análisis de sentimientos, NLP',
-            'featured' => true,
-            'order' => 10,
-        ]);
-
-        Skill::create([
-            'name' => 'NLP (Procesamiento de Lenguaje Natural)',
-            'category' => 'technical',
-            'subcategory' => 'ai',
-            'proficiency' => 60,
-            'description' => 'Análisis de sentimientos, clasificación de texto',
-            'featured' => false,
-            'order' => 11,
-        ]);
-
-        Skill::create([
-            'name' => 'Google Colab',
-            'category' => 'technical',
-            'subcategory' => 'ai',
-            'proficiency' => 65,
-            'description' => 'Desarrollo de notebooks, experimentación con IA',
-            'featured' => false,
-            'order' => 12,
-        ]);
-
+        
         // ===== BASES DE DATOS =====
         Skill::create([
             'name' => 'MySQL',
@@ -143,7 +102,7 @@ class SkillSeeder extends Seeder
             'proficiency' => 75,
             'description' => 'Diseño relacional, normalización, consultas SQL',
             'featured' => true,
-            'order' => 13,
+            'order' => 9,
         ]);
 
         Skill::create([
@@ -153,7 +112,7 @@ class SkillSeeder extends Seeder
             'proficiency' => 70,
             'description' => 'Gestión de bases de datos',
             'featured' => false,
-            'order' => 14,
+            'order' => 10,
         ]);
 
         Skill::create([
@@ -163,7 +122,7 @@ class SkillSeeder extends Seeder
             'proficiency' => 75,
             'description' => 'Modelado ER, normalización 3FN',
             'featured' => false,
-            'order' => 15,
+            'order' => 11,
         ]);
 
         // ===== HERRAMIENTAS =====
@@ -174,7 +133,7 @@ class SkillSeeder extends Seeder
             'proficiency' => 70,
             'description' => 'Control de versiones, branching, merging',
             'featured' => true,
-            'order' => 16,
+            'order' => 12,
         ]);
 
         Skill::create([
@@ -184,7 +143,7 @@ class SkillSeeder extends Seeder
             'proficiency' => 70,
             'description' => 'Repositorios, colaboración, GitHub Pages',
             'featured' => false,
-            'order' => 17,
+            'order' => 13,
         ]);
 
         Skill::create([
@@ -194,7 +153,7 @@ class SkillSeeder extends Seeder
             'proficiency' => 80,
             'description' => 'Testing de APIs, colecciones, automatización',
             'featured' => true,
-            'order' => 18,
+            'order' => 14,
         ]);
 
         Skill::create([
@@ -204,7 +163,7 @@ class SkillSeeder extends Seeder
             'proficiency' => 75,
             'description' => 'Servidor local Apache, MySQL, PHP',
             'featured' => false,
-            'order' => 19,
+            'order' => 15,
         ]);
 
         Skill::create([
@@ -214,17 +173,7 @@ class SkillSeeder extends Seeder
             'proficiency' => 55,
             'description' => 'Contenedores, imágenes, docker-compose',
             'featured' => false,
-            'order' => 20,
-        ]);
-
-        Skill::create([
-            'name' => 'Claude AI',
-            'category' => 'tool',
-            'subcategory' => 'ai',
-            'proficiency' => 80,
-            'description' => 'Desarrollo asistido, prompt engineering, resolución de problemas',
-            'featured' => true,
-            'order' => 21,
+            'order' => 16,
         ]);
 
         // ===== AUTENTICACIÓN =====
@@ -235,7 +184,7 @@ class SkillSeeder extends Seeder
             'proficiency' => 70,
             'description' => 'Autenticación con tokens para APIs',
             'featured' => false,
-            'order' => 22,
+            'order' => 17,
         ]);
 
         // ===== HABILIDADES BLANDAS =====
@@ -246,7 +195,7 @@ class SkillSeeder extends Seeder
             'proficiency' => null,
             'description' => null,
             'featured' => false,
-            'order' => 23,
+            'order' => 18,
         ]);
 
         Skill::create([
@@ -256,7 +205,7 @@ class SkillSeeder extends Seeder
             'proficiency' => null,
             'description' => null,
             'featured' => false,
-            'order' => 24,
+            'order' => 19,
         ]);
 
         Skill::create([
@@ -266,7 +215,7 @@ class SkillSeeder extends Seeder
             'proficiency' => null,
             'description' => null,
             'featured' => false,
-            'order' => 25,
+            'order' => 20,
         ]);
 
         Skill::create([
@@ -276,7 +225,7 @@ class SkillSeeder extends Seeder
             'proficiency' => null,
             'description' => null,
             'featured' => false,
-            'order' => 26,
+            'order' => 21,
         ]);
 
         Skill::create([
@@ -286,7 +235,7 @@ class SkillSeeder extends Seeder
             'proficiency' => null,
             'description' => null,
             'featured' => false,
-            'order' => 27,
+            'order' => 22,
         ]);
 
         Skill::create([
@@ -296,7 +245,7 @@ class SkillSeeder extends Seeder
             'proficiency' => null,
             'description' => null,
             'featured' => false,
-            'order' => 28,
+            'order' => 23,
         ]);
 
         Skill::create([
@@ -306,7 +255,7 @@ class SkillSeeder extends Seeder
             'proficiency' => null,
             'description' => null,
             'featured' => false,
-            'order' => 29,
+            'order' => 24,
         ]);
 
         Skill::create([
@@ -316,7 +265,7 @@ class SkillSeeder extends Seeder
             'proficiency' => null,
             'description' => null,
             'featured' => false,
-            'order' => 30,
+            'order' => 25,
         ]);
 
         Skill::create([
@@ -326,7 +275,7 @@ class SkillSeeder extends Seeder
             'proficiency' => null,
             'description' => null,
             'featured' => false,
-            'order' => 31,
+            'order' => 26,
         ]);
     }
 }
