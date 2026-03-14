@@ -21,7 +21,7 @@ class PersonalInfoSeeder extends Seeder
             'github_url' => 'https://github.com/Dhoron22',
             'linkedin_url' => 'https://www.linkedin.com/in/lautaro-p%C3%A9rez-aa8981201/',
             'age' => 26,
-            'profile_image' => 'images/profile/fotoPerfil.png',
+            'profile_image' => 'https://drive.google.com/uc?export=view&id=1iPLcZ_mvyGKDFFGCyTx_RVWQk_xQr7RU',
         ]);
     }
 }
