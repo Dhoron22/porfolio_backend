@@ -22,7 +22,7 @@ class EducationSeeder extends Seeder
             'end_date' => '2025-07-01',
             'current' => false,
             'status' => 'completed',
-            'certificate_url' => null,
+            'certificate_url' => 'https://drive.google.com/file/d/1LniS888fnJcHkS1elc5yIihJN-wdWWZ4/preview',
             'location' => 'Corrientes, Argentina',
             'order' => 1,
         ]);
@@ -37,7 +37,7 @@ class EducationSeeder extends Seeder
             'end_date' => '2022-05-01',
             'current' => false,
             'status' => 'completed',
-            'certificate_url' => null,
+            'certificate_url' => 'https://drive.google.com/file/d/1feGfRYCvRO4K06T-5B-yaaDxwUg02fgt/preview',
             'location' => 'Chaco, Argentina',
             'order' => 2,
         ]);
@@ -52,7 +52,7 @@ class EducationSeeder extends Seeder
             'end_date' => '2015-01-09',
             'current' => false,
             'status' => 'completed',
-            'certificate_url' => null,
+            'certificate_url' => 'https://drive.google.com/file/d/1zzJ8S9qicQ9FnRg_JEwpy9vjh0UFWJ5o/preview',
             'location' => 'Corrientes, Argentina',
             'order' => 3,
         ]);
@@ -67,7 +67,7 @@ class EducationSeeder extends Seeder
             'end_date' => null,
             'current' => false,
             'status' => 'completed',
-            'certificate_url' => null,
+            'certificate_url' => 'https://drive.google.com/file/d/1kFlwt5oXrb3cCEAcBUF4A4QkWDDeFczk/preview',
             'location' => 'Corrientes, Argentina',
             'order' => 4,
         ]);
