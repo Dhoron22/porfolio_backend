@@ -15,13 +15,15 @@ class CorsMiddleware
 
         // Lista de orígenes permitidos
         $allowedOrigins = [
-            'http://localhost:4200',
-            'porfolio-frontend-eight.vercel.app'
+            'http://localhost:4200' ,
+            'https://euphonious-brioche-ef882a.netlify.app/'
+            //'porfolio-frontend-eight.vercel.app'
         ];
 
-        // Permitir cualquier subdominio de vercel.app
+        // Permitir cualquier subdominio de vercel.app o netlify
         if ($origin && (
             str_ends_with($origin, '.vercel.app') ||
+            str_ends_with($origin, '.netlify.app') ||
             in_array($origin, $allowedOrigins)
         )) {
             $allowedOrigin = $origin;
